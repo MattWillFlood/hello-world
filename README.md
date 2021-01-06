@@ -1,6 +1,6 @@
-# Welcome to GitHub
+# Welcome to the Dange Zone
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+Welcome to the danger zone — where Im practicing to build a website on GitHub.
 
 ## Repositories
 
