@@ -30,24 +30,25 @@ consistent syntax that allows the user to augment parameters at the command
 line, enabling a range from basic to advanced entropy methods to be implemented
 with ease.
 
-* It is important to clarify that the entropy functions herein described 
+*_ It is important to clarify that the entropy functions herein described 
 estimate entropy in the context of probability theory and information theory as
-defined by Shannon, and not thermodynamic or other entropies from classical physics.*
+defined by Shannon, and not thermodynamic or other entropies from classical physics._*
 
 ## Functions
 
 EntropyHub functions fall into 5 categories: 
-Base                functions for estimating the entropy of a single univariate time series.
-Cross               functions for estimating the entropy between two univariate time series.
-Bidimensional       functions for estimating the entropy of a two-dimensional univariate matrix.
-Multiscale          functions for estimating the multiscale entropy of a single
+* Base                functions for estimating the entropy of a single univariate time series.
+* Cross               functions for estimating the entropy between two univariate time series.
+* Bidimensional       functions for estimating the entropy of a two-dimensional univariate matrix.
+* Multiscale          functions for estimating the multiscale entropy of a single
                     univariate time series using any of the Base entropy functions.
-Multiscale Cross    functions for estimating the multiscale entropy between two 
+* Multiscale Cross    functions for estimating the multiscale entropy between two 
                     univariate time series using any of the Cross-entropy functions.
 
-### Base:
+### Base Entropies:
 
-______________________________________________________|__________________
+Entropy Type   |  Function Name 
+--|--
 Approximate Entropy                               	  |	ApEn
 Sample Entropy                                		  |	SampEn
 Fuzzy Entropy                                 		  |	FuzzEn
@@ -67,9 +68,12 @@ Gridded Distribution Entropy                          |	GridEn
 Entropy of Entropy                            	      |	EnofEn
 Attention Entropy                                     |	AttnEn
 
-_________________________________________________________________________
-###Cross Entropies###                                       |	Function Name
-______________________________________________________|__________________
+_______________________________________________________________________
+
+### Cross Entropies:
+
+Entropy Type   |  Function Name 
+--|--
 Cross Sample Entropy                                  |	XSampEn
 Cross Approximate Entropy                             |	XApEn
 Cross Fuzzy Entropy                                   |	XFuzzEn
@@ -79,24 +83,32 @@ Cross Distribution Entropy                            |	XDistEn
 Cross Spectral Entropy                          	  |	XSpecEn
 Cross Kolmogorov Entropy                              |	XK2En
 	
-_________________________________________________________________________
-###Bidimensional Entropies###                              |	Function Name
-______________________________________________________|__________________
+_______________________________________________________________________
+
+### Bidimensional Entropies
+
+Entropy Type   |  Function Name 
+--|--
 Bi-Dimensional Sample Entropy                         |	SampEn2D
 Bi-Dimensional Fuzzy Entropy                          |	FuzzEn2D
 Bi-Dimensional Distribution Entropy                   |	DistEn2D
 	
 _________________________________________________________________________
-###Multiscale Entropy Functions#                          | Function Name
-______________________________________________________|__________________ 
+
+### Multiscale Entropy Functions
+
+Entropy Type   |  Function Name 
+--|--
 Multiscale Entropy                                    | MSEn
 Composite/Refined-Composite Multiscale Entropy        | cMSEn
 Refined Multiscale Entropy                            | rMSEn
 Hierarchical Multiscale Entropy Object                | hMSEn
 
 _________________________________________________________________________
-###Multiscale Entropies###                          |	Function Name
-______________________________________________________|__________________
+
+### Multiscale Entropies
+Entropy Type   |  Function Name 
+--|--
 Multiscale Sample Entropy                             |	
 Multiscale Approximate Entropy                        |	
 Multiscale Fuzzy Entropy                              |	
@@ -116,16 +128,21 @@ Multiscale Increment Entropy                          |
 Multiscale Attention Entropy                          |	
 	
 _________________________________________________________________________
-###Multiscale Cross-Entropy Functions###                    | Function Name
-______________________________________________________|__________________                                                     |
+
+### Multiscale Cross-Entropy Functions
+Entropy Type   |  Function Name 
+--|--
 Multiscale Cross-Entropy                              |   XMSEn
 Composite/Refined-Composite Multiscale Cross-Entropy  |   cXMSEn
 Refined Multiscale Entropy                            |   rXMSEn
 Hierarchical Multiscale Entropy Object                |   hXMSEn
 
 _________________________________________________________________________
-###Multiscale Cross-Entropies###                            |	Function Name
-______________________________________________________|__________________
+
+### Multiscale Cross-Entropies
+
+Entropy Type   |  Function Name 
+--|--
 Multiscale Cross-Sample Entropy                       |	
 Multiscale Cross-Approximate Entropy                  |	
 Multiscale Cross-Fuzzy Entropy                        |	MSobject
@@ -167,10 +184,17 @@ For Terms of Use see https://github.com/MattWillFlood/EntropyHub -**
 
 
 
-Contact
-If you find this package useful, please consider starring it on GitHub, MatLab File Exchange, PyPI or Julia Packages as this helps us to gauge user satisfaction.
-If you have any questions about the package or identify any issues, please do not hesitate to contact us at:    entropyhubproject@gmail.com
+## Contact
+If you find this package useful, please consider starring it on GitHub, 
+MatLab File Exchange, PyPI or Julia Packages as this helps us to gauge user 
+satisfaction.
+
+If you have any questions about the package or identify any issues, 
+please do not hesitate to contact us at:    entropyhubproject@gmail.com
+
+
 Thank you for using EntropyHub.
+
 Yours in research,
 Matt
 
