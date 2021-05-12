@@ -30,9 +30,9 @@ consistent syntax that allows the user to augment parameters at the command
 line, enabling a range from basic to advanced entropy methods to be implemented
 with ease.
 
-**_ It is important to clarify that the entropy functions herein described 
+* It is important to clarify that the entropy functions herein described 
 estimate entropy in the context of probability theory and information theory as
-defined by Shannon, and not thermodynamic or other entropies from classical physics._**
+defined by Shannon, and not thermodynamic or other entropies from classical physics.*
 
 ## Functions
 
