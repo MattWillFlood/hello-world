@@ -47,9 +47,6 @@ Multiscale Cross    functions for estimating the multiscale entropy between two
 
 ### Base:
 
-
-_________________________________________________________________________
-###Base Entropies###                                        |	Function Name	
 ______________________________________________________|__________________
 Approximate Entropy                               	  |	ApEn
 Sample Entropy                                		  |	SampEn
