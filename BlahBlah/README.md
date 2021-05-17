@@ -1,7 +1,9 @@
-# EntropyHub - An open source toolkit for entropic time series analysis
+# EntropyHub: An open-source toolkit for entropic time series analysis
+__*MatLab Edition*__
 
+<p align="center">
 <img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHub_profiler.png" alt = "EntropyHub Git" width="250" height="250" />
-
+</p>
 
 ## About
 
@@ -42,11 +44,19 @@ defined by Shannon, and not thermodynamic or other entropies from classical phys
 There are two ways to install EntropyHub for MatLab.
 
 #### Method 1:
-    1. Download the MatLab toolbox file (EntropyHub.mltbx) above.
-    2. Open matlab and change the current folder to the directory where the .mltbx file is saved.
-    3. Double-click the .mltbx file to open it. This should begin the installation.
+   1. Download the MatLab toolbox file (**EntropyHub.mltbx**) above.
+   2. Open matlab and change the current folder to the directory where the .mltbx file is saved.
+	<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/MATLAB_README1.png" width="600" height="600"  />
+	
+   3. Double-click the .mltbx file to open it and click install.
+	<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/MATLAB_README2.png" />
+	
 #### Method 2:
-    1. 
+   1. In MatLab, open the Add-Ons browser under the home tab by clicking 'Get Add-Ons'.
+  	<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/MATLAB_README3.png" width="1100" height="600"  />
+   2. In the search bar, search for __*EntroypHub*__.
+   3. Open the resulting link, and click '__*add*__' in the top-right corner.
+   4. Follow the instructions to install the toolbox. __Note: You must be logged in to your MathWorks account__. 
 	
 
 ## Documentation & Help 
@@ -83,7 +93,7 @@ be made to incorporate them in future releases.*
 ### Base Entropies:
 
 Entropy Type   |  Function Name 
---|--
+---|---
 Approximate Entropy                               	  |	ApEn
 Sample Entropy                                		  |	SampEn
 Fuzzy Entropy                                 		  |	FuzzEn
@@ -216,6 +226,6 @@ Matt
         |_| |_|\_____/|_____/                         \___________/ 
         
         
-
-
-![EntropyHub Logo2](https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHubLogo3.png "EntropyHub Logo2")
+<p  align="center">
+	<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHubLogo3.png" width="250" height="350"/>
+</p>
