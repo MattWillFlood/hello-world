@@ -1,6 +1,6 @@
 # EntropyHub - An open source toolkit for entropic time series analysis
 
-![EntropyHub Logo](https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHub_profiler.png "EntropyHub Logo")
+<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHub_profiler.png" alt = "EntropyHub Git" width="250" height="250" />
 
 
 ## About
@@ -37,6 +37,34 @@ with ease.
 estimate entropy in the context of probability theory and information theory as
 defined by Shannon, and not thermodynamic or other entropies from classical physics.***
 
+## Installation
+
+There are two ways to install EntropyHub for MatLab.
+
+#### Method 1:
+    1. Download the MatLab toolbox file (EntropyHub.mltbx) above.
+    2. Open matlab and change the current folder to the directory where the .mltbx file is saved.
+    3. Double-click the .mltbx file to open it. This should begin the installation.
+#### Method 2:
+    1. 
+	
+
+## Documentation & Help 
+
+A key advantage of EntropyHub is the comprehensive documentation available to help users to make the most of the toolkit.
+In the supplemental software section of the MatLab help browser, you can find the custom EntropyHub documentation on each EntropyHub function, complete with several examples and references to relevant scientific sources. 
+To learn more about a specific function, one can do so easily from the command line by typing: `doc FunctionName`, which will display the documentation in the help browser.
+For example:
+
+`doc SampEn`     Documentation on sample entropy function
+
+`doc XSpecEn`    Documentation on cross-spectral entropy function
+
+`doc hXMSEn`     Documentation on hierarchical multiscale cross-entropy function
+
+Alternatively, one can simply access the docstrings of a function (like any MatLab function) by typing help FunctionName in the command line, which will display the docstrings in the command window.
+
+
 ## Functions
 
 EntropyHub functions fall into 5 categories: 
@@ -44,10 +72,8 @@ EntropyHub functions fall into 5 categories:
     * Base                functions for estimating the entropy of a single univariate time series.
     * Cross               functions for estimating the entropy between two univariate time series.
     * Bidimensional       functions for estimating the entropy of a two-dimensional univariate matrix.
-    * Multiscale          functions for estimating the multiscale entropy of a single
-                        univariate time series using any of the Base entropy functions.
-    * Multiscale Cross    functions for estimating the multiscale entropy between two 
-                        univariate time series using any of the Cross-entropy functions.
+    * Multiscale          functions for estimating the multiscale entropy of a single univariate time series using any of the Base entropy functions.
+    * Multiscale Cross    functions for estimating the multiscale entropy between two univariate time series using any of the Cross-entropy functions.
 
 #### The following tables outline the functions available in the EntropyHub package.
 
@@ -190,47 +216,6 @@ Matt
         |_| |_|\_____/|_____/                         \___________/ 
         
         
-
-
-
-*Possible multiscle entropy variants with EntropyHub.
-  _________________________________________________________________________
-
-### Multiscale Entropies
-
-Entropy Type   |  Function Name 
---|--
-Multiscale Sample Entropy                             |	
-Multiscale Approximate Entropy                        |	
-Multiscale Fuzzy Entropy                              |	
-Multiscale Permutation Entropy                        |	
-Multiscale Dispersion Entropy                         |	
-Multiscale Cosine Similarity Entropy                  |	
-Multiscale Symblic Dynamic Entropy                    |	MSobject
-Multiscale Conditional Entropy                        |	     +
-Multiscale Entropy of Entropy                         | MSEn / cMSEn
-Multiscale Gridded Distribution Entropy               |	rMSEn / hMSEn
-Multiscale Slope Entropy                              |
-Multiscale Phase Entropy                              |		
-Multiscale Kolmogorov Entropy                         |	
-Multiscale Distribution Entropy                       |		
-Multiscale Bubble Entropy                             |	
-Multiscale Increment Entropy                          |	
-Multiscale Attention Entropy                          |	
-
-_________________________________________________________________________
-
-### Multiscale Cross-Entropies
-
-Entropy Type   |  Function Name 
---|--
-Multiscale Cross-Sample Entropy                       |	
-Multiscale Cross-Approximate Entropy                  |	
-Multiscale Cross-Fuzzy Entropy                        |	MSobject
-Multiscale Cross-Permutation Entropy                  |	    +
-Multiscale Cross-Distribution Entropy                 |	XMSEn / cXMSEn
-Multiscale Cross-Kolmogorov Entropy                   | rXMSEn / hXMSEn
-Multiscale Cross-Conditional Entropy                  |	
 
 
 ![EntropyHub Logo2](https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHubLogo3.png "EntropyHub Logo2")
