@@ -2,7 +2,7 @@
 __*Julia Edition*__
 
 <p align="center">
-<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHub_JuliaLogo.png" alt = "EntropyHub Git" width="250" height="350" />
+<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHub_JuliaLogo.png" alt = "EntropyHub Git" width="250" height="340" />
 </p>
 
 ## About
@@ -78,29 +78,32 @@ There are two ways to install EntropyHub for Julia.
 
 
 ### System Requirements 
-  There are two additional toolboxes required to get the __*full*__ functionality of the EntropyHub toolkit:   
-  *Signal Processing Toolbox* and *Statistics and Machine Learning Toolbox*.
-  However, most functions will work without these toolboxes.
-  
-  EntropyHub is intended for use with MatLab versions >= 2016a.  
-  In some cases the toolkit may work on versions 2015a & 2015b. 
-  However, it is not recommended to install on MatLab versions older than 2016 and should be done so with caution.
+There are several package dependencies which will be installed alongside EntropyHub (if not already installed):
+
+DSP, FFTW, HTTP, Random, Plots, StatsBase, StatsFuns, GroupSlices, 
+Statistics, DelimitedFiles, Combinatorics, LinearAlgebra, Dierckx, Clustering
+
+EntropyHub was designed using Julia 1.5 and is intended for use with Julia versions >= 1.2.
 
 
 ## Documentation & Help 
 
 A key advantage of EntropyHub is the comprehensive documentation available to help users to make the most of the toolkit.
-In the supplemental software section of the MatLab help browser, you can find the custom EntropyHub documentation on each EntropyHub function, complete with several examples and references to relevant scientific sources. 
-To learn more about a specific function, one can do so easily from the command line by typing: `doc FunctionName`, which will display the documentation in the help browser.
+ 
+To learn more about a specific function, one can do so easily from the command line by typing: `?`, which will open the julia help system, and then typing the function name.
+
 For example:
 
-`doc SampEn`     Documentation on sample entropy function
+	julia> ?  
+	help?> SampEn	  # Documentation on sample entropy function
 
-`doc XSpecEn`    Documentation on cross-spectral entropy function
+	julia> ?  
+	help?> XSpecEn    # Documentation on cross-spectral entropy function
 
-`doc hXMSEn`     Documentation on hierarchical multiscale cross-entropy function
+	julia> ?
+	help?> hXMSEn     # Documentation on hierarchical multiscale cross-entropy function
 
-Alternatively, one can simply access the docstrings of a function (like any MatLab function) by typing `help FunctionName` in the command line, which will display the docstrings in the command window.
+All information on the EntropyHub package is detailed in the *EntropyHub Guide*, a .pdf document available [here](https://github.com/MattWillFlood/EntropyHub).
 
 
 ## Functions
