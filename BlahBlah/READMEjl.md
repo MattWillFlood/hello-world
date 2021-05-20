@@ -1,8 +1,8 @@
 # EntropyHub: An open-source toolkit for entropic time series analysis
-__*MatLab Edition*__
+__*Julia Edition*__
 
 <p align="center">
-<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHub_profiler.png" alt = "EntropyHub Git" width="250" height="250" />
+<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/EntropyHub_JuliaLogo.png" alt = "EntropyHub Git" width="250" height="350" />
 </p>
 
 ## About
@@ -41,23 +41,41 @@ defined by Shannon, and not thermodynamic or other entropies from classical phys
 
 ## Installation
 
-There are two ways to install EntropyHub for MatLab.
+There are two ways to install EntropyHub for Julia.
 
 #### Method 1:
-   1. Download the MatLab toolbox file (**EntropyHub.mltbx**) above.
-   2. Open matlab and change the current folder to the directory where the .mltbx file is saved.
-	<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/MATLAB_README1.png" width="600" height="600"  />
+   1. In Julia, open the package REPL by typing `]`. The command line should appear as: 
+   
+      `@vX.Y.  pkg>        `
+      
+      Where X and Y refer to your version of Julia.
+  
+   2. Type:
+   
+      `add EntropyHub`
 	
-   3. Double-click the .mltbx file to open it and click install.
-	<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/MATLAB_README2.png" />
+      (Note: this is __case sensitive__)
+      
+   Alternatively, one can use the Pkg module to perform the same procedure:
+   
+   `using Pkg`
 	
+   `Pkg.add("EntropyHub")`
+    
 #### Method 2:
-   1. In MatLab, open the Add-Ons browser under the home tab by clicking 'Get Add-Ons'.
-  	<img src="https://github.com/MattWillFlood/EntropyHub/blob/main/Graphics/MATLAB_README3.png" width="1100" height="600"  />
-   2. In the search bar, search for __*EntroypHub*__.
-   3. Open the resulting link, and click '__*add*__' in the top-right corner.
-   4. Follow the instructions to install the toolbox. __Note: You must be logged in to your MathWorks account__. 
+   1. In Julia, open the package REPL by typing `]`. The command line should appear as: 
+   
+      `@vX.Y.  pkg>        `
+      
+      Where X and Y refer to your version of Julia.
+  
+   2. Type:
+   
+      `add https://github.com/MattWillFlood/EntropyHub.jl`
 	
+      (Note: this is __case sensitive__)
+      
+
 
 ### System Requirements 
   There are two additional toolboxes required to get the __*full*__ functionality of the EntropyHub toolkit:   
